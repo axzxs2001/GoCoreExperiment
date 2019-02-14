@@ -4,7 +4,14 @@ import "fmt" //导入fmt包
 
 //main函数是入口函数
 func main() {
+	// vardemo()
+	// f1()
+	// f2(10)
+	fmt.Println(control(2))
+}
 
+//变量测试
+func vardemo() {
 	//定义赋值变量方法一
 	var i int = 10
 	fmt.Println("i =", i)
@@ -30,14 +37,59 @@ func main() {
 	var s = "abc" +
 		"\n123"
 	fmt.Println("s=", s)
-
-	f1()
-	f2(10)
 }
 
+func control(a int) int {
+	if a > 10 {
+		fmt.Println("if a> 10")
+	} else {
+		fmt.Println("else a> 10")
+	}
+	switch a {
+	case 1:
+		fmt.Println("switch case 1")
+		break
+	case 2:
+		fmt.Println("switch case 2")
+		break
+	default:
+		fmt.Println("switch case default")
+		break
+	}
+	return 10
+}
 func f1() {
 	fmt.Println("func f1")
 }
 func f2(i int) {
 	fmt.Printf("func f2(%d)", i)
 }
+
+/*
+break
+default
+func
+interface
+select
+case
+defer
+go
+map
+struct
+chan
+else
+goto
+package
+switch
+const
+fallthrough
+if
+range
+type
+continue
+for
+import
+return
+var
+
+*/
