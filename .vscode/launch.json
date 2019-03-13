@@ -12,7 +12,7 @@
             "mode": "auto",
             "program": "${fileDirname}",
             "env": {
-                "GOPATH":"C:/Users/gsw/go"
+                
             },
             "args": [],
             "showLog": true,      
