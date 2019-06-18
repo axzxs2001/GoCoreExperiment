@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("我的第一个Go程序——桂素伟2019-03-13" + time.Now().FormatDate("2006-01-02"))
+	fmt.Println("我的第一个Go程序——桂素伟" + time.Now().Format("2006-01-02 15:04:05.000"))
 }
