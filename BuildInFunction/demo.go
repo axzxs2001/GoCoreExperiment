@@ -5,7 +5,7 @@ import "fmt" //导入fmt包
 //main函数是入口函数
 func main() {
 	// 数组
-	var arr [4]string = [4]string{"a", "b", "c", "d"}
+	var arr []string = []string{"a", "b", "c", "d"}
 	fmt.Println("数组长度是：", len(arr))
 	// 切片
 	var slice []int = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -20,9 +20,6 @@ func main() {
 	ch <- 34
 	fmt.Println("ch：", <-ch)
 	fmt.Println("ch：", <-ch)
-	fmt.Println("ch：", <-ch)
-	fmt.Println("ch：", <-ch)
-	fmt.Println("ch：", <-ch)
 	fmt.Println("chan长度是：", len(ch))
 	// 字典
 	var mp map[string]bool = map[string]bool{
@@ -34,5 +31,4 @@ func main() {
 	var str string = "道德经"
 	fmt.Println("string类型长度是：", len(str))
 	fmt.Println("rune类型长度是：", len([]rune(str)))
-
 }
