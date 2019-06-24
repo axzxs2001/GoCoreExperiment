@@ -9,7 +9,7 @@ import "flag"
 func main() {
 	flag.Parse() // parse the command line args
 
-	connString := "server=.;user id=sa;password=sa;port=1433;database=testdb;encrypt=disable"
+	connString := "server=.;user id=sa;password=sa;port=1433;database=testdb;"
 
 	fmt.Printf(" connString:%s\n", connString)
 
